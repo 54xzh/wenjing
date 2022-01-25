@@ -2,7 +2,7 @@ body {
     font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:black;
+    background-color:white;
 }
 
 .loading {
@@ -19,7 +19,7 @@ body {
     height:1.7em;
     line-height:1.7em;
     font-size:2.2em;
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
 }
 
 .SHADE {
@@ -91,7 +91,7 @@ body {
 
 
 #welcome {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, .8);
     text-align: center;
     font-weight: bold;
     overflow: hidden;
@@ -113,9 +113,9 @@ body {
     left: 0;
     width: 100%;
     text-align: center;
-    color: rgb(114, 111, 255);
+    color: rgb(233, 138, 131);
     font-size: 4em;
-    text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0);
+    text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff;
     overflow: hidden;
 }
 
@@ -125,7 +125,7 @@ body {
     right: 0;
     bottom: 0;
     overflow: hidden;
-    background: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
 }
 
 .GameLayer {
@@ -136,7 +136,7 @@ body {
 
 .block {
     position: absolute;
-    border-top: 1px solid #6200ff;
+    border-top: 1px solid #b8dfe6;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -160,7 +160,7 @@ body {
 }
 
 .bl {
-    border-left: 1px solid #6200ff;
+    border-left: 1px solid #b8dfe6;
 }
 
 @-ms-keyframes flash {
@@ -199,8 +199,8 @@ body {
 }
 
 * {
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-    -ms-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -ms-tap-highlight-color: rgba(0, 0, 0, 0);
     -ms-user-select: none;
 }
 
@@ -208,7 +208,7 @@ body {
     padding-top: 2em;
     font-size: 2em;
     font-weight: bold;
-    color: #ffffff;
+    color: #251c1c;
     text-align: center;
     overflow: hidden;
 }
@@ -245,7 +245,7 @@ body {
 }
 
 #share-wx {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.8);
     position: absolute;
     top: 0px;
     left: 0px;
